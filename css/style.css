@@ -340,7 +340,11 @@ div#phone-num {
     background-color: #66c5e4;
 }
 
-
+.highlight
+{
+ text-decoration: solid;
+ background-color: #95E1F9;
+}
 /*****************************
         5. MEDIA QUERIES
 *****************************/

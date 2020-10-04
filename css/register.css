@@ -23,7 +23,7 @@ input[type=password] {
     padding: 6px 20px;
     width: 25%;
 } 
-.btn #formSubmit {
+.btn #submit-button {
     background-color: aqua;
     color: white;
     padding: 10px;
@@ -31,7 +31,7 @@ input[type=password] {
     width: 100px;
     font-size: medium;
 }
-.btn #formSubmit:hover {
+.btn #submit-button:hover {
     border-color: black;
 }
 .btn p {

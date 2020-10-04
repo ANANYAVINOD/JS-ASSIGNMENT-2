@@ -1,0 +1,36 @@
+{
+    "tableHeaders": [
+      "Title",
+      "Location",
+      "No. of Posts"
+    ],
+    "tableKeys": [
+      "title",
+      "jobLocation",
+      "NoOfPosts"
+    ],
+    "tableContents": [
+      {
+        "Title": "Senior DevOps Engineer",
+        "Location": "Office",
+        "No. of Posts": 4
+      },
+      {
+        "Title": "Senior React Developer",
+        "Location": "Office",
+        "No. of Posts": 2
+      },
+      {
+        "Title": "Senior Angular Developer",
+        "Location": "Office",
+        "No. of Posts": 3
+      },
+      {
+        "Title": "Senior JavaScript Developer",
+        "Location": "Office",
+        "href": "#",
+        "No. of Posts": 6
+      }
+    ]
+}
+  

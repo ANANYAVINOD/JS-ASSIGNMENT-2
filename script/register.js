@@ -1,5 +1,5 @@
 var usersJson = [];
-document.querySelector("#formSubmit").addEventListener("click", function () {
+document.querySelector("#submit-button").addEventListener("click", function () {
   let fname = document.getElementById("firstname").value;
   let lname = document.getElementById("lastname").value;
   let dob = document.getElementById("DoB").value;
@@ -100,7 +100,7 @@ document.querySelector("#formSubmit").addEventListener("click", function () {
 
   if (validate()) {
     register();
-    window.location.href("/index.html")
+    window.location.replace("index.html");    
   }
 });
 

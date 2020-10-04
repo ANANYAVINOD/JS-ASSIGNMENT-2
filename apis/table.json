@@ -1,0 +1,56 @@
+{
+  "tableHeaders": [
+    "Job Title",
+    "Location",
+    "Job Code",
+    "Number of Posts",
+    "Last Date",
+    "Position Availability"
+  ],
+  "tableKeys": [
+    "jobTitle",
+    "jobLocation",
+    "jobCode",
+    "NoOfPosts",
+    "lastDate",
+    "posAvailability"
+  ],
+  "tableContents": [
+    {
+      "jobTitle": "Senior DevOps Engineer",
+      "jobLocation": "TVM",
+      "href": "#",
+      "jobCode": 4,
+      "NoOfPosts": 0,
+      "lastDate": "-",
+      "posAvailability": false
+    },
+    {
+      "jobTitle": "Senior React Developer",
+      "jobLocation": "TVM",
+      "href": "#",
+      "jobCode": 2,
+      "NoOfPosts": 4,
+      "lastDate": "2020-10-30",
+      "posAvailability": true
+    },
+    {
+      "jobTitle": "Senior Angular Developer",
+      "jobLocation": "TVM",
+      "href": "#",
+      "jobCode": 3,
+      "NoOfPosts": 2,
+      "lastDate": "2020-10-31",
+      "posAvailability": true
+    },
+    {
+      "jobTitle": "Senior JavaScript Developer",
+      "jobLocation": "TVM",
+      "href": "#",
+      "jobCode": 6,
+      "NoOfPosts": 6,
+      "lastDate": "2020-11-1",
+      "posAvailability": true
+    }
+  ]
+}
