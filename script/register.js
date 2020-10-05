@@ -7,7 +7,7 @@ document.querySelector("#submit-button").addEventListener("click", function () {
   let confirmPass = document.getElementById("confirmPassword").value;
   let checkbox = document.getElementById("tAndC").checked;
 
-  clearErrorMsg();
+  clearMsg();
   function validate() {
     if (fname.length == 0) {
       msg = "First name field is required";
@@ -78,7 +78,7 @@ document.querySelector("#submit-button").addEventListener("click", function () {
     error.style.display = "block";
   }
 
-  function clearErrorMsg() {
+  function clearMsg() {
     errors = document.querySelectorAll(".error-text");
     for (i = 0; i < errors.length; i++) {
       errors[i].style.display = "none";

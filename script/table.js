@@ -10,8 +10,7 @@ xhttp.onreadystatechange = function () {
     var tableDatas = response.tableContents;
     buildTable(tableDatas);
 
-    // <--------------------------TABLE SORTING--------------------------->
-
+   
     document.querySelectorAll("th").forEach((th) => {
       th.addEventListener("click", function () {
         var column = this.dataset.column;
@@ -37,7 +36,7 @@ xhttp.onreadystatechange = function () {
 xhttp.open("GET", "http://127.0.0.1:8000/table.json", true);
 xhttp.send();
 
-// <--------------------------TABLE HEADERS--------------------------->
+// --------------------------TABLE HEADERS---------------------------
 
 function theaders(tableHeaders, tableKeys) {
   var tableHead = "";

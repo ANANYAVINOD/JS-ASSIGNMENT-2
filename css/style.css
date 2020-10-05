@@ -345,6 +345,20 @@ div#phone-num {
  text-decoration: solid;
  background-color: #95E1F9;
 }
+.header-bottom {
+    margin-top: 15px;
+    font-size: medium;
+}
+#logout-button {
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: 3px solid #95E1F9;
+    margin: auto;
+    box-shadow: 2px 3px 2px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
 /*****************************
         5. MEDIA QUERIES
 *****************************/

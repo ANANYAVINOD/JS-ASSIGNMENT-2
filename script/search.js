@@ -9,11 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
         for (var values of searchWord) {
             searchedTag = values;
             searchWord = values.innerHTML;
-  
             searchWord = searchWord.toString();
-  
             homeContent = searchWord;
-  
             highlightWord(homeContent);
         }
           searchWord = "";
