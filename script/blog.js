@@ -1,5 +1,11 @@
 const blogPostsItems = new XMLHttpRequest();
-blogPostsItems.open("GET", "apis/blogs.json");
+if (window.location.href  == "http://127.0.0.1:5500/about.html") {
+  blogPostsItems.open("GET", "apis/blogAbout.json", true);
+}
+else {
+  blogPostsItems.open("GET", "apis/blogs.json", true);
+}
+
 blogPostsItems.send();
 blogPostsItems.addEventListener("load", blog);
 
