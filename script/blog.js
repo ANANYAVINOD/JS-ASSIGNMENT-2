@@ -1,5 +1,5 @@
 const blogPostsItems = new XMLHttpRequest();
-blogPostsItems.open("GET", "http://127.0.0.1:8000/blogs.json");
+blogPostsItems.open("GET", "apis/blogs.json");
 blogPostsItems.send();
 blogPostsItems.addEventListener("load", blog);
 

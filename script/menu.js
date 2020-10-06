@@ -31,7 +31,7 @@ let post = function(url, payloadObj, callback) {
 }
 
 let menuData = new XMLHttpRequest();
-menuData.open("GET", "http://127.0.0.1:8000/menu.json");
+menuData.open("GET", "apis/menu.json");
 menuData.send();
 menuData.addEventListener("load", loadMenu);
 

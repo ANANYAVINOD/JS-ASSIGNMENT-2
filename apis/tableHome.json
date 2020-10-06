@@ -3,45 +3,38 @@
       "Title",
       "Location",
       "Code",
-      "No. of Posts",
-      "Last Date"
+      "No. of Posts"
     ],
     "tableKeys": [
       "jobTitle",
       "jobLocation",
       "jobCode",
-      "NoOfPosts",
-      "lastDate",
-      "posAvailability"
+      "NoOfPosts"
     ],
     "tableContents": [
       {
         "jobTitle": "Engineer",
         "jobLocation": "Office",
         "jobCode": 1,
-        "NoOfPosts": 4,
-        "lastDate": "2020-10-20"
+        "NoOfPosts": 4
       },
       {
         "jobTitle": "Developer",
         "jobLocation": "Office",
         "jobCode": 2,
-        "NoOfPosts": 2,
-        "lastDate": "-"
+        "NoOfPosts": 2
       },
       {
         "jobTitle": "Architect",
         "jobLocation": "Office",
         "jobCode": 3,
-        "NoOfPosts": 3,
-        "lastDate": "2020-10-30"
+        "NoOfPosts": 3
       },
       {
         "jobTitle": "Manager",
         "jobLocation": "Office",
         "jobCode": 4,
-        "NoOfPosts": 6,
-        "lastDate": "2020-11-20"
+        "NoOfPosts": 6
       }
     ]
 }
