@@ -2,34 +2,46 @@
     "tableHeaders": [
       "Title",
       "Location",
-      "No. of Posts"
+      "Code",
+      "No. of Posts",
+      "Last Date"
     ],
     "tableKeys": [
-      "title",
+      "jobTitle",
       "jobLocation",
-      "NoOfPosts"
+      "jobCode",
+      "NoOfPosts",
+      "lastDate",
+      "posAvailability"
     ],
     "tableContents": [
       {
-        "Title": "Senior DevOps Engineer",
-        "Location": "Office",
-        "No. of Posts": 4
+        "jobTitle": "Engineer",
+        "jobLocation": "Office",
+        "jobCode": 1,
+        "NoOfPosts": 4,
+        "lastDate": "2020-10-20"
       },
       {
-        "Title": "Senior React Developer",
-        "Location": "Office",
-        "No. of Posts": 2
+        "jobTitle": "Developer",
+        "jobLocation": "Office",
+        "jobCode": 2,
+        "NoOfPosts": 2,
+        "lastDate": "-"
       },
       {
-        "Title": "Senior Angular Developer",
-        "Location": "Office",
-        "No. of Posts": 3
+        "jobTitle": "Architect",
+        "jobLocation": "Office",
+        "jobCode": 3,
+        "NoOfPosts": 3,
+        "lastDate": "2020-10-30"
       },
       {
-        "Title": "Senior JavaScript Developer",
-        "Location": "Office",
-        "href": "#",
-        "No. of Posts": 6
+        "jobTitle": "Manager",
+        "jobLocation": "Office",
+        "jobCode": 4,
+        "NoOfPosts": 6,
+        "lastDate": "2020-11-20"
       }
     ]
 }

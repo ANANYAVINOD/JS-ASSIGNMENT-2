@@ -33,8 +33,14 @@ xhttp.onreadystatechange = function () {
     });
   }
 };
-xhttp.open("GET", "http://127.0.0.1:8000/table.json", true);
-xhttp.send();
+if (window.location.href == "file:///C:/JS-ASSIGNMENT-2/home.html") {
+  xhttp.open("GET", "http://127.0.0.1:8000/tableHome.json", true);
+  xhttp.send();
+} else if (window.location.href  == "file:///C:/JS-ASSIGNMENT-2/services.html") {
+  xhttp.open("GET", "http://127.0.0.1:8000/table.json", true);
+  xhttp.send();
+}
+
 
 // --------------------------TABLE HEADERS---------------------------
 
@@ -56,8 +62,7 @@ function buildTable(tableDatas) {
                     <td>${i.jobCode}</td>
                     <td>${i.NoOfPosts}</td>
                     <td>${i.lastDate}</td>
-                    <td>${
-                      i.posAvailability == true
+                    <td>${i.posAvailability == true
                         ? "<button onClick=alertBtn()>Apply</button>"
                         : ""
                     }</td>
