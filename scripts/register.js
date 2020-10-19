@@ -18,8 +18,7 @@ document.querySelector("#submit-button").addEventListener("click", function () {
         msg = "First name is invalid.";
         id = "error-fname";
         errorMsg();
-      } else {
-      }
+      } 
     }
 
     if (lname.length == 0) {
@@ -100,7 +99,7 @@ document.querySelector("#submit-button").addEventListener("click", function () {
 
   if (validate()) {
     register();
-    window.location.replace("index.html");    
+    window.location.replace("../index.html");    
   }
 });
 

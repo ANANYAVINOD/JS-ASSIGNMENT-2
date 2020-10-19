@@ -1,22 +1,22 @@
 [
     {
         "href": "",
-        "img-path": "images/post-image.jpg",
+        "img-path": "../images/post-image.jpg",
         "alt": "Post Image"
     },
     {
         "href": "",
-        "img-path": "images/post-image.jpg",
+        "img-path": "../images/post-image.jpg",
         "alt": "Post Image"
     },
     {
         "href": "",
-        "img-path": "images/post-image.jpg",
+        "img-path": "../images/post-image.jpg",
         "alt": "Post Image"
     },
     {
         "href": "",
-        "img-path": "images/post-image.jpg",
+        "img-path": "../images/post-image.jpg",
         "alt": "Post Image"
     }
 ]

@@ -1,0 +1,55 @@
+
+{
+    "columnConfig": [
+        {
+            "title": "Job Id",
+            "sortable": true,
+            "type": "number",
+            "id": "jobId"
+        },
+        {
+            "title": "Job Title",
+            "sortable": true,
+            "type": "string",
+            "id": "jobTitle"
+        },
+        {
+            "title": "Last Date",
+            "sortable": true,
+            "type": "date",
+            "id": "lastDate"
+        },
+        {
+            "title": "Status",
+            "sortable": false,
+            "type": "button",
+            "id": "status"
+        }
+    ],
+    "data": [
+        {
+            "jobId": 1,
+            "jobTitle": "Senior DevOps Engineer",
+            "lastDate": "2020-12-03",
+            "status": "open"
+        },
+        {
+            "jobId": 2,
+            "jobTitle": "Python Developer",
+            "lastDate": "2020-09-01",
+            "status": "closed"
+        },
+        {
+            "jobId": 3,
+            "jobTitle": "UI Designer",
+            "lastDate": "2020-12-10",
+            "status": "open"
+        },
+        {
+            "jobId": 4,
+            "jobTitle": "Database Developer",
+            "lastDate": "2020-09-02",
+            "status": "open"
+        }
+    ]
+}

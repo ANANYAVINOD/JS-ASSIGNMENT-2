@@ -33,11 +33,11 @@ xhttp.onreadystatechange = function () {
     });
   }
 };
-if (window.location.href == "http://127.0.0.1:5500/home.html") {
-  xhttp.open("GET", "apis/tableHome.json", true);
+if (window.location.href.split("/")== "../pages/home.html") {
+  xhttp.open("GET", "http://127.0.0.1:8000/tableHome.json", true);
   xhttp.send();
-} else if (window.location.href  == "http://127.0.0.1:5500/services.html") {
-  xhttp.open("GET", "apis/table.json", true);
+} else if (window.location.href.split("/")[3]  == "../pages/services.html") {
+  xhttp.open("GET", "../apis/table.json", true);
   xhttp.send();
 }
 
@@ -55,7 +55,7 @@ function theaders(tableHeaders, tableKeys) {
 function buildTable(tableDatas) {
   var tableData = document.getElementById("table-data");
   tableData.innerHTML = "";
-  if (window.location.href  == "http://127.0.0.1:5500/services.html") {
+  if (window.location.href.split("/")[3]  == "../pages/services.html") {
     for (var i of tableDatas) {
       var row = `<tr>
                     <td>${i.jobTitle}</td>
@@ -71,7 +71,7 @@ function buildTable(tableDatas) {
     tableData.innerHTML += row;
     }
   }
-  else if(window.location.href == "http://127.0.0.1:5500/home.html") {
+  else if(window.location.href.split("/")[3] == "../pages/home.html") {
     for (var i of tableDatas) {
       var row = `<tr>
                     <td>${i.jobTitle}</td>

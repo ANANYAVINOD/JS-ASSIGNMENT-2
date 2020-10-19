@@ -1,14 +1,27 @@
+function loadMore() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("Btn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+
 const blogPostsItems = new XMLHttpRequest();
-if (window.location.href  == "http://127.0.0.1:5500/about.html") {
-  blogPostsItems.open("GET", "apis/blogAbout.json", true);
-}
-else {
-  blogPostsItems.open("GET", "apis/blogs.json", true);
-}
+
+  blogPostsItems.open("GET", "http://127.0.0.1:8000/blogs.json", true);
+
 
 blogPostsItems.send();
 blogPostsItems.addEventListener("load", blog);
-
+ 
 function blog() {
     const blogPosts = JSON.parse(blogPostsItems.response);
     const posts = document.getElementById('posts');
