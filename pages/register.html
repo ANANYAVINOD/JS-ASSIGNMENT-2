@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+        <h1>Welcome to RMedia</h1>
+        </div>
+    </header>
+    <form id="form">
+        <div class="fName form-div">
+            <label for="firstName">First Name</label><br>
+            <input type="text" name="firstName" placeholder="First Name" id="firstname" required>
+            <span class="error-text" id="error-fname"></span>
+        </div>
+        <div class="lName form-div">
+            <label for="lastName">Last Name</label><br>
+            <input type="text" name="lastName" placeholder="Last Name" id="lastname" required>
+            <span class="error-text" id="error-lname"></span>
+        </div>
+        <div class="dob form-div">
+            <label for="date">Date of Birth</label><br>
+            <input type="date" name="date" id="DoB" placeholder="Date" required>
+            <span class="error-text" id="error-dob"></span>
+        </div>
+        <div class="Password form-div">
+            <label for="Password">Password</label><br>
+            <input type="password" name="password" id="password" required>
+            <span class="error-text" id="error-pass"></span>
+        </div>
+        <div class="CPassword form-div">
+            <label for="CPassword">Confirm Password</label><br>
+            <input type="password" name="password" id="confirmPassword" required>
+            <span class="error-text" id="error-confpass"></span>
+        </div>
+        <div class="terms form-div">
+            <input type="checkbox" name="check" id="tAndC" required>
+            <label for="terms">Accept Terms and Conditions</label>
+            <span class="error-text" id="error-checkbox"></span>
+        </div>
+        <div class="btn form-div">
+            <button id="submit-button" type="button">SIGN UP</button>
+            <p>Already registered, then Login here</p>
+            <input type=button onClick="location.href='../index.html'" value ="Login" id="submit-button">  
+        </div>
+    </form>
+    <script src = "../scripts/register.js"></script>
+</body>
+</html>

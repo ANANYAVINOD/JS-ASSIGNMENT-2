@@ -1,0 +1,41 @@
+{
+    "tableHeaders": [
+      "Title",
+      "Location",
+      "Code",
+      "No. of Posts"
+    ],
+    "tableKeys": [
+      "jobTitle",
+      "jobLocation",
+      "jobCode",
+      "NoOfPosts"
+    ],
+    "tableContents": [
+      {
+        "jobTitle": "Engineer",
+        "jobLocation": "Office",
+        "jobCode": 1,
+        "NoOfPosts": 4
+      },
+      {
+        "jobTitle": "Developer",
+        "jobLocation": "Office",
+        "jobCode": 2,
+        "NoOfPosts": 2
+      },
+      {
+        "jobTitle": "Architect",
+        "jobLocation": "Office",
+        "jobCode": 3,
+        "NoOfPosts": 3
+      },
+      {
+        "jobTitle": "Manager",
+        "jobLocation": "Office",
+        "jobCode": 4,
+        "NoOfPosts": 6
+      }
+    ]
+}
+  
